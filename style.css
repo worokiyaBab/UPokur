@@ -1,0 +1,125 @@
+#title{
+  text-align: center;
+  color:rgb(240, 2, 133);
+  font-family: 'Acme', sans-serif;
+}
+#title:hover{
+   text-align: center;
+  color:rgb(157, 126, 214);
+  font-family: 'Acme', sans-serif;
+}
+
+#wrapper{
+  display:grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  gird-template-row: 500px ;
+  grid-gap: none;
+  justify-items: center;
+    background: pink;
+
+}
+#h3{
+  font-size:20x;
+  font-weight:bold
+}
+#add{
+  color: rgb(240, 2, 133);
+  background-color:pink
+}
+#title{
+  background: rgb(138, 242, 131);
+    
+}
+#pic{
+  width: 100%;
+  height: 500px;
+  border-radius:15%
+}
+#img{
+  width:20%;
+    height:40px
+}
+
+#name{
+  color: rgb(3, 223, 252);
+    font-size:20px;
+  font-family: 'Press Start 2P', cursive;
+}
+#name:hover{
+   color: rgb(178, 228, 237);
+    font-size:20px;
+  font-family: 'Press Start 2P', cursive;
+  font-weight:bold;
+}
+#quote{
+  color: rgb(163, 76, 230);
+  font-family: 'Liu Jian Mao Cao', cursive;
+  font-size:15px
+}
+
+iframe{
+  display: none;
+}
+
+#quote:hover{
+  color: rgb(163, 76, 230);
+ font-family: 'Catamaran', sans-serif;
+  font-size:15px;
+  font-weight:bold;
+  
+}
+#superlative{
+  color: rgb(230, 84, 76);
+  font-family: 'Bellota', cursive;
+  font-weight: bold;
+}
+#superlative:hover{
+  color: rgb(235, 171, 218);
+  font-family: 'Bellota', cursive;
+}
+#next{
+  background-color: rgb(177, 147, 237);
+  border: white dotted;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+#next:hover {
+   background-color:rgb(237, 213, 90);
+  color: white;}
+
+#back{
+  background-color:rgb(138, 242, 131);
+  border: white dotted;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;}
+
+#back:hover {
+  background-color: rgb(177, 147, 237);
+  color: white;}
+
+#random{
+  background-color:rgb(138, 242, 131);
+  border: white dotted;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;}
+
+#random:hover {
+  background-color: rgb(177, 147, 237);
+  color: white;}
+
+
